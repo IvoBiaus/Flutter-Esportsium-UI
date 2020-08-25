@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutteresportsiumui/screens/Onboarding/widgets/buttons_panel.dart';
-import 'package:flutteresportsiumui/screens/Onboarding/widgets/logo.dart';
+import './widgets/buttons_panel.dart';
+import './widgets/logo.dart';
 
 class Onboarding extends StatelessWidget {
   @override

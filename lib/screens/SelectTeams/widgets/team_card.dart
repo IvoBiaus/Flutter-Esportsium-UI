@@ -39,7 +39,7 @@ class _TeamCardState extends State<TeamCard> {
         children: [
           Icon(
             Icons.person,
-            color: widget.team.gameColor,
+            color: widget.team.game.color,
           ),
           const SizedBox(width: 20),
           Container(

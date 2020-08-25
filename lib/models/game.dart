@@ -5,16 +5,13 @@ class Game {
   int followers;
   bool isSelected;
   String image;
+  Color color;
 
   Game({
     @required this.name,
     @required this.image,
     @required this.followers,
-  }) {
-    this.isSelected = false;
-  }
-
-  void toggleSelect() {
-    this.isSelected = !this.isSelected;
-  }
+    @required this.color,
+    this.isSelected = false,
+  });
 }

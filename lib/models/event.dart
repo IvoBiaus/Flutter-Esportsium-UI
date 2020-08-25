@@ -14,7 +14,6 @@ class Event {
     @required this.dateEnd,
     @required this.isLive,
     @required this.color,
-  }) {
-    this.notificationsOn = false;
-  }
+    this.notificationsOn = false,
+  });
 }

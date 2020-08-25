@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
+import './game.dart';
 
 class Team {
   String name;
   int followers;
   Color teamColor;
-  Color gameColor;
+  Game game;
 
   Team({
     @required this.name,
     @required this.teamColor,
-    @required this.gameColor,
+    @required this.game,
     this.followers = 0,
   });
 }
