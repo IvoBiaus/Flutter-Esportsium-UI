@@ -11,6 +11,7 @@ class Match {
   int teamTwoScore;
   String time;
   Game game;
+  bool ended;
 
   Match({
     @required this.name,
@@ -21,5 +22,14 @@ class Match {
     this.teamOneScore = 0,
     this.teamTwoScore = 0,
     this.time = "00:00",
+    this.ended = false,
   });
+
+  bool teamOneWonOrTie() {
+    return this.teamOneScore >= this.teamTwoScore;
+  }
+
+  bool teamTwoWonOrTie() {
+    return this.teamTwoScore >= this.teamOneScore;
+  }
 }

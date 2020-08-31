@@ -123,6 +123,7 @@ Match alpha = Match(
   teamTwo: two,
   teamOneScore: 3,
   teamTwoScore: 4,
+  ended: true,
 );
 
 Match bravo = Match(
